@@ -138,7 +138,7 @@ library.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %if "%{_lib}" != "lib"
 sed -i -e 's,lib/pkgconfig,%{_lib}/pkgconfig,g' CMakeLists.txt
