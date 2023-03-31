@@ -7,7 +7,7 @@
 
 Name: fann
 Version: 2.2.0
-Release: 3
+Release: 4
 Source0: https://github.com/libfann/fann/archive/%{version}.tar.gz
 Patch0: fann-2.2.0-link-libm.patch
 Summary: Fast Artificial Neural Network library
