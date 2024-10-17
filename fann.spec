@@ -11,7 +11,7 @@ Release: 4
 Source0: https://github.com/libfann/fann/archive/%{version}.tar.gz
 Patch0: fann-2.2.0-link-libm.patch
 Summary: Fast Artificial Neural Network library
-URL: http://github.com/libfann
+URL: https://github.com/libfann
 License: LGPLv2.1
 Group: System/Libraries
 BuildRequires: cmake
